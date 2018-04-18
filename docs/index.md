@@ -3,13 +3,13 @@
 April 2018 || Version 5.0 **(DRAFT)**
 
 ## Contents
-[About this document]()
+About this document
 
-[Section 1: Introdcution and Rationale for Tests]()
+Section 1: Introdcution and Rationale for Tests
 
-[Section 2: Test Environment]()
+Section 2: Test Environment
 
-[Section 3: Section 508 Conformance Tests for Applications]()
+Section 3: Section 508 Conformance Tests for Applications
 
 1. [Interactive Interface Elements](1Interactive.md)
     1. [Keyboard Access](1Interactive.md#11-keyboard-access)
