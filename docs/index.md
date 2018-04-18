@@ -1,6 +1,6 @@
 # Trusted Tester Section 508 Conformance Test Process for Applications
 
-April 2018 || Version 5.0 (DRAFT)
+April 2018 || Version 5.0 **(DRAFT)**
 
 ## Contents
 [About this document]()
