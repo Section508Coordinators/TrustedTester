@@ -11,8 +11,8 @@ April 2018 || Version 5.0
 
 [Section 3: Section 508 Conformance Tests for Applications]()
 
-1. Interactive Interface Elements
-    1. [Keyboard Access](1-1Keyboard.md)
+1. [Interactive Interface Elements](1Interactive.md)
+    1. [Keyboard Access](1Interactive.md#11-keyboard-access)
     2. Labels for Assistive Technologies
         1. SW: All interactive elements
         2. Web: Forms
