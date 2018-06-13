@@ -15,7 +15,8 @@ Identify any instances of content time limits, excluding:
   <tr>
     <td><strong>2.2.1-timing-adjustable</strong></td>
     <td>7.A</td>
-    <td><strong>At least one of the following conditions is true:</strong>
+    <td>
+      <strong>At least one of the following conditions is true:</strong>
       <ol>
         <li>The user has the ability to turn off the time limit</li>
         <li>The user has the ability to adjust the time limit, with at least ten times the length of the default setting</li>
