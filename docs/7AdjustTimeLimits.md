@@ -5,6 +5,7 @@ Identify any instances of content time limits, excluding:
 * **20 Hour Exception:** The time limit is longer than 20 hours.
 
 ### Check that:
+<div>
 <table style="text-align:left verticle-align:top">
   <tr>
     <th>Test Name</th>
@@ -47,7 +48,7 @@ Identify any instances of content time limits, excluding:
     </td>
   </tr>
 </table>
-
+</div>
 
 ### Applicable Standards
 <table>
