@@ -15,7 +15,7 @@
 | 13. Page Titles, Frames and iFrames | Kristen | Done |
 | 14. Sensory Characteristics and Contrast | Ann Marie | In Progress |
 | 15. Tables | Andrew | In Progress |
-| 16. CSS Content and Positioning |  |  |
+| 16. CSS Content and Positioning | Kristen | In Progress |
 | 17. Audio-Only, Video-Only, Animations, and Synchronized Media |  |  |
 | 18. Resize Text |  |  |
 | 19. Multiple Ways |  |  |
