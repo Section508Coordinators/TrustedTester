@@ -1,4 +1,4 @@
-# TrustedTester
+# Trusted Tester
 The Trusted Tester test process was originally created by the Department of Homeland Security (DHS), Office of Accessible Systems and Technology (OAST) and later adopted by several other U.S. federal agencies. The Interagency Trusted Tester Program now manages and maintains the Trusted Tester process. This repository contains updates to the Trusted Tester process, while in draft, to align to the revised Section 508 Standards. The Trusted Tester process incorporates the ["Harmonized Processes for Section 508 Testing: Baseline Tests for Software &amp; Web Accessibility"](https://github.com/Section508Coordinators/ICTTestingBaseline) version version 3, which has also been revised to align to the revised Section 508 Standards.
 
 ## Introduction
