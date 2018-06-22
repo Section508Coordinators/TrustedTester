@@ -1,5 +1,5 @@
 | Section | Assignment | Status |
-|---------|------------|--------|
+|:---------|------------|--------|
 | 1. Alternate Version | Kathy | In Progress |
 | 2. Timed Events (Auto-Play and Auto-Update) | Kathy | In Progress |
 | 3. Flashing | Kathy | In Progress |
