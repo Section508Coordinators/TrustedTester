@@ -1,11 +1,11 @@
 | Section | Assignment | Status |
 |:---------|------------|--------|
-| 1. Alternate Version | Kathy | In Progress |
-| 2. Timed Events (Auto-Play and Auto-Update) | Kathy | In Progress |
-| 3. Flashing | Kathy | In Progress |
-| 4. Keyboard Access and Focus | Ann Marie | In Progress |
+| 1. Alternate Version | Kathy | Done |
+| 2. Timed Events (Auto-Play and Auto-Update) | Kathy | Done |
+| 3. Flashing | Kathy | Done |
+| 4. Keyboard Access and Focus | Ann Marie | Done |
 | 5. Forms | Ann Marie | Done |
-| 6. Changing Content | Andrew | In Progress |
+| 6. Changing Content | Andrew | Done |
 | 7. Adjustable Timing | Andrew | Done |
 | 8. Links | Andrew | Done |
 | 9. Repetitive Content | Cliff | Done |
