@@ -16,7 +16,7 @@
 | 14. Sensory Characteristics and Contrast | Ann Marie | In Progress |
 | 15. Tables | Andrew | In Progress |
 | 16. CSS Content and Positioning | Kristen | Done |
-| 17. Audio-Only, Video-Only, Animations, and Synchronized Media |  |  |
+| 17. Audio-Only, Video-Only, Animations, and Synchronized Media | Kristen | In Progress |
 | 18. Resize Text |  Fariba | In Progress |
-| 19. Multiple Ways | Kristen | In Progress |
+| 19. Multiple Ways | Kristen | Done |
 | 20. Parsing |  |  |
