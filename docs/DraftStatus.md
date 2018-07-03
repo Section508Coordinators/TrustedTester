@@ -13,8 +13,8 @@
 | 11. Headings | Cliff | Done | To Do | To Do | To Do |
 | 12. Language | Andrew | Done | In progress | Done | Done |
 | 13. Page Titles, Frames and iFrames | Kristen | Done | In progress | To Do | To Do |
-| 14. Sensory Characteristics and Contrast | Ann Marie | Done | In progress | In progress | Done |
-| 15. Tables | Andrew | In Progress | To Do | To Do | To Do |
+| 14. Sensory Characteristics and Contrast | Ann Marie | Done | In progress | Done | Done |
+| 15. Tables | Andrew | Done | To Do | To Do | To Do |
 | 16. CSS Content and Positioning | Kristen | Done | In progress | To Do | To Do |
 | 17. Audio-Only, Video-Only, Animations, and Synchronized Media | Kristen | In Progress | To Do | To Do | To Do |
 | 18. Resize Text |  Fariba | In Progress | To Do | To Do | To Do |
