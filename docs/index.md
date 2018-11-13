@@ -3,12 +3,11 @@ title: Trusted Tester - DRAFT Section 508 Conformance Test Process for Web
 layout: default
 ---
 
-<p><span id="_Toc516043108" class="anchor"></span>United States Federal Chief Information Officers Council (CIOC)</p>
-<p>Accessibility Community of Practice (ACOP)</p>
-<blockquote>
-<p>Trusted Tester<br>
-  DRAFT - Section 508 Conformance Test Process for Web</p>
-</blockquote>
+# Trusted Tester DRAFT - Section 508 Conformance Test Process for Web
+
+United States Federal Chief Information Officers Council (CIOC)
+Accessibility Community of Practice (ACOP)
+
 <p>November 2018 | Version 5.0</p>
 <h1 id="about-this-document">About This Document</h1>
 <h2 id="who-should-use-this-document">Who Should Use This Document</h2>
