@@ -1,6 +1,6 @@
 ---
 title: Trusted Tester - DRAFT Section 508 Conformance Test Process for Web
-layout: default
+layout: singlepage
 ---
 
 # Trusted Tester DRAFT - Section 508 Conformance Test Process for Web
