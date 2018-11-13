@@ -10,6 +10,8 @@ Section 1: Introdcution and Rationale for Tests
 Section 2: Test Environment
 
 Section 3: Section 508 Conformance Tests for Applications
+
+[Index2](tt1113.html)
   
 1. Alternate Version
 2. Timed Events (Auto-Play and Auto-Update)
