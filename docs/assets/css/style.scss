@@ -14,7 +14,8 @@
     border: 0;
 }
 .skip-link:focus {
-position:static;
-width:auto;
-height:auto;
+    position:static;
+    width:auto;
+    height:auto;
+    z-index: 10;
 }
