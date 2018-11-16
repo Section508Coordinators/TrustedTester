@@ -3,7 +3,12 @@
 
 @import "{{site.theme}}";
 
-a, a:link {
+a {
+    color: #086ea1;
+    text-decoration: underline;
+}
+
+section a:link {
     color: #086ea1;
     text-decoration: underline;
 }
@@ -35,6 +40,7 @@ header {
 #banner {
     background: #BBDEFB;
     border: #7ea1be;
+    margin-right:-282px;
 }
 
 section {
