@@ -23,7 +23,7 @@ a {
     color: #FFFF8D;
 }
 body {
-    background: #FFF8E1;
+    background: #e7e7e7;
 }
 
 header {
@@ -32,6 +32,7 @@ header {
 
 #banner {
     background: #BBDEFB;
+    border: #7ea1be;
 }
 
 section {
@@ -40,4 +41,8 @@ section {
 
 section a {
     color: #157bae;
+}
+
+#banner .button {
+    background-color: #7ea1be;
 }
