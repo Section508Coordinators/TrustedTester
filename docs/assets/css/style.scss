@@ -3,6 +3,9 @@
 
 @import "{{site.theme}}";
 
+a {
+    color: #157bae;
+}
 .skip-link {
     position: absolute;
     width: 1px;
@@ -17,7 +20,7 @@
     position:static;
     width:auto;
     height:auto;
-    z-index: 100;
+    color: #FFFF8D;
 }
 body {
     background: #FFF8E1;
@@ -25,4 +28,13 @@ body {
 
 header {
     background: #01579B;
+}
+
+#banner {
+    background: #BBDEFB;
+}
+
+section {
+    width: 750px;
+    background: 
 }
