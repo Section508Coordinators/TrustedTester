@@ -16,6 +16,16 @@ header p {
     margin: 0px 20px 0px 20px;
 }
 
+th {
+    text-align: left;
+    background-color: #E3F2FD;
+    vertical-align: top;
+}
+
+td {
+    vertical-align: top;
+}
+
 .skip-link {
     position: absolute;
     width: 1px;
