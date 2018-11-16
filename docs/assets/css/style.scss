@@ -3,9 +3,11 @@
 
 @import "{{site.theme}}";
 
-a {
-    color: #157bae;
+a, a:link {
+    color: #086ea1;
+    text-decoration: underline;
 }
+
 .skip-link {
     position: absolute;
     width: 1px;
