@@ -9,7 +9,7 @@ a {
 
 nav {
     overflow: auto;
-    bottom: 100%;
+    display: inline-block;
 }
 
 section a:link {
@@ -74,6 +74,7 @@ header {
 
 section {
     width: 750px;
+    display: inline-block;
 }
 
 section a {
