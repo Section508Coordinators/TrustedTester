@@ -7,11 +7,17 @@ a:hover, a:focus {
 }
 
 .w3-sidebar {
-  z-index: 3;
   width: 250px;
-  top: 43px;
+  top: 100px;
   bottom: 0;
-  height: inherit;
+}
+
+.w3-sidebar ul {
+    list-style-type: none;
+}
+
+.w3-sidebar a:link {
+    text-decoration: none;
 }
 
 footer{
