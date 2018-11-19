@@ -28,11 +28,14 @@ $(function() {
   });
   
   $(".tag-h1:contains(Section 508 Conformance Tests)").each(function(){
+    $(this).attr("id", conTests);
     var $set = $(this)
       .nextUntil(".tag-h1")
       .add();
-    $set.wrapAll('<ul class="testSection" />');
+    $set.wrapAll('<ul class="testSection" id="testSection" />');
   });
+  
+  $("#conTests").append($("#testSection")));
 
   sectionHeight();
 
