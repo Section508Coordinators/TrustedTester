@@ -8,9 +8,7 @@ a {
 }
 
 nav {
-    position: relative;
-    overflow: auto;
-    display: inline-block;
+    overflow-y: scroll;
 }
 
 section a:link {
@@ -75,7 +73,6 @@ header {
 
 section {
     width: 750px;
-    display: inline-block;
 }
 
 section a {
