@@ -1961,12 +1961,12 @@ Accessibility Community of Practice (ACOP)
 <li><p>ANDI will display a dialog listing the value of the lang attribute assigned to the &lt;html&gt; element of the page.</p></li>
 <li><p>If no lang attribute is defined or if the attribute is empty, ANDI will provide a warning in the same dialog.</p></li>
 </ol></li>
-<li><p>Consult the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html">Internet Assigned Numbers Authority's (IANA) Language subtag registry</a> to determine whether the language is properly defined and matches the default human language for the page.</p></li>
+<li><p>Consult the <a href="https://www.iana.org/assignments/language-subtag-registry">Internet Assigned Numbers Authority's (IANA) Language subtag registry</a> to determine whether the language is properly defined and matches the default human language for the page.</p></li>
 </ol>
 <p><strong>Evaluate Results:</strong></p>
 <p>If ALL of the following are <strong>TRUE</strong>, then the content <strong>PASSES</strong>:</p>
 <ol style="list-style-type: decimal">
-<li><p>The default primary language is correctly specified per <a href="https://section508coordinators.github.io/ICTTestingBaseline/04RepetitiveContent.html">IANA</a>, AND</p></li>
+<li><p>The default primary language is correctly specified per <a href="https://www.iana.org/assignments/language-subtag-registry">IANA</a>, AND</p></li>
 <li><p>The identified language in the lang attribute correctly matches the default human language for the page.</p></li>
 </ol>
 <p><strong>Note:</strong></p>
@@ -2012,18 +2012,18 @@ Accessibility Community of Practice (ACOP)
 <li><p>Mouseover or tab to the markup to reveal the beginning and end of the element.</p></li>
 <li><p>Determine whether the entire passage is enclosed within the element.</p></li>
 </ol></li>
-<li><p>Consult the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">Internet Assigned Numbers Authority's (IANA) Language subtag registry</a> to determine whether the language is properly defined and matches the human language for the content segment.</p></li>
+<li><p>Consult the <a href="https://www.iana.org/assignments/language-subtag-registry">Internet Assigned Numbers Authority's (IANA) Language subtag registry</a> to determine whether the language is properly defined and matches the human language for the content segment.</p></li>
 </ol>
 <p><strong>Evaluate Results:</strong></p>
 <p>If ALL of the following are <strong>TRUE</strong>, then the content <strong>PASSES</strong>:</p>
 <ol style="list-style-type: decimal">
-<li><p>The language for the content segment that differs from the primary default language of the page is correctly specified per <a href="https://github.com/Section508Coordinators/ICTTestingBaseline/blob/Feedback-fixes/docs/13Headings.md">IANA</a>, AND</p></li>
+<li><p>The language for the content segment that differs from the primary default language of the page is correctly specified per <a href="https://www.iana.org/assignments/language-subtag-registry">IANA</a>, AND</p></li>
 <li><p>The identified language in the lang attribute correctly matches the human language for the content segment</p></li>
 </ol>
 <p><strong>Note:</strong></p>
 <ul>
 <li><p>The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications for dialects that may follow the primary language subtag.)</p></li>
-<li><p>The primary language subtag must conform to the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">Internet Assigned Numbers Authority's (IANA) Language subtag registry.</a></p></li>
+<li><p>The primary language subtag must conform to the <a href="https://www.iana.org/assignments/language-subtag-registry">Internet Assigned Numbers Authority's (IANA) Language subtag registry.</a></p></li>
 </ul></td>
 </tr>
 </tbody>
