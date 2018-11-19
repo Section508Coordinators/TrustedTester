@@ -13,7 +13,7 @@ var sectionHeight = function() {
 $(window).resize(sectionHeight);
 
 $(function() {
-  $("section h1, section h2, section h3").each(function(){
+  $("section h1, section h2).each(function(){
     $("nav ul").append("<li class='tag-" + this.nodeName.toLowerCase() + "'><a href='#" + $(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,'') + "'>" + $(this).text() + "</a></li>");
     $(this).attr("id",$(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,''));
     $("nav ul li:first-child a").parent().addClass("active");
@@ -25,6 +25,13 @@ $(function() {
     $("nav ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
     event.preventDefault();
+  });
+  
+  $(".tag-h1:contains(Section 508 Conformance Tests)").each(function(){
+    var $set = $(this)
+      .nextUntil(".tag-h1")
+      .add();
+    $set.wrapAll('<div class="testSection" />');
   });
 
   sectionHeight();
