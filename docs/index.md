@@ -8,7 +8,7 @@ layout: default
 United States Federal Chief Information Officers Council (CIOC)
 Accessibility Community of Practice (ACOP)
 
-<p>November 2018 | Version 5.0</p>
+<p>November 2018 | Version 5.0 <strong>DRAFT</strong></p>
 <h1 id="about-this-document">About This Document</h1>
 <h2 id="who-should-use-this-document">Who Should Use This Document</h2>
 <p>This document has been designed for and is intended for use by Trusted Testers.</p>
