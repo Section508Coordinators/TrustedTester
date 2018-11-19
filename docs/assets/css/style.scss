@@ -69,6 +69,7 @@ body {
 
 header {
     background: #01579B;
+    color: white;
 }
 
 #banner {
@@ -80,8 +81,10 @@ main a {
     color: #157bae;
 }
 
-.w3-main {
-    margin-left: 250px;
+.main-content {
+    margin-left: 275px;
+    margin-top: 300px;
+    margin-right: 20px;
 }
 
 #banner .button {
