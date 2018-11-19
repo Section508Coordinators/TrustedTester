@@ -6,6 +6,11 @@ a:hover, a:focus {
     outline-color: invert !important;
 }
 
+#banner {
+    top: 85px;
+    z-index: 2;
+}
+
 .w3-sidebar {
   width: 250px;
   top: 100px;
