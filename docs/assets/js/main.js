@@ -34,7 +34,7 @@ $(function() {
     $set.wrapAll('<ul class="testSection" id="testSection" />');
   });
   
-  $(".tag-h1:contains(Section 508 Conformance Tests)").attr("id" conTests);
+  $(".tag-h1:contains(Section 508 Conformance Tests)").attr("id", "conTests");
 
   sectionHeight();
 
