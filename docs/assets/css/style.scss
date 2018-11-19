@@ -1,11 +1,18 @@
 ---
 ---
 
-a:hover {
+a:hover, a:focus {
     outline: dotted !important;
     outline-color: invert !important;
 }
 
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
 
 footer{
     text-align: center;
