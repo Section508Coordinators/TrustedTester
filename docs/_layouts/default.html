@@ -23,7 +23,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
 
-      <div id="banner">
+      <div id="banner" class="w3-top">
         <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()" aria-label="Open Contents Navigation"><i class="fa fa-bars"></i></a>
         <span id="logo" role="img" aria-label="GitHub Octocat logo"></span>
         <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
@@ -34,10 +34,12 @@
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" aria-label="Close Contents Navigation"><i class="fa fa-remove"></i></a>
         <ul></ul>
       </nav>
+    </div>
       
-      <!-- Overlay effect when opening sidebar on small screens -->
-      <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" aria-label="Close Contents Navigation" id="myOverlay"></div>
-      
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" aria-label="Close Contents Navigation" id="myOverlay"></div>
+    
+    <div class="w3-card main-content">
       <main id="content" class="w3-main">
         {{ content }}
       
