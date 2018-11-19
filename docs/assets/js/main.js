@@ -35,7 +35,7 @@ $(function() {
     $set.wrapAll('<ul class="testSection" id="testSection" />');
   });
   
-  $("#conTests").append("#testSection");
+  $("#conTests").append($("#testSection"));
 
   sectionHeight();
 
