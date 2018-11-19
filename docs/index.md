@@ -1,9 +1,9 @@
 ---
-title: Trusted Tester - DRAFT Section 508 Conformance Test Process for Web
+title: DRAFT Trusted Tester - Section 508 Conformance Test Process for Web
 layout: default
 ---
 
-# Trusted Tester DRAFT - Section 508 Conformance Test Process for Web
+# DRAFT Trusted Tester - Section 508 Conformance Test Process for Web
 
 United States Federal Chief Information Officers Council (CIOC)
 Accessibility Community of Practice (ACOP)
