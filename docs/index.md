@@ -1232,7 +1232,7 @@ Accessibility Community of Practice (ACOP)
 </ol>
 <p><strong>Note: </strong></p>
 <ul>
-<li><p>This test also covers the requirement for <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">WCAG SC 4.1.2 Name, Role, Value</a>.</p></li>
+<li><p>This test also covers the requirement for <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">WCAG SC 4.1.2 Name, Role, Value</a>.</p></li>
 <li><p>Any changes to links or buttons that occur automatically or as a result of interaction with the page should be included in this test.</p></li>
 </ul></td>
 </tr>
