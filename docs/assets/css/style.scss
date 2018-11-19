@@ -1,42 +1,11 @@
 ---
 ---
 
-@import "{{site.theme}}";
-
 a {
-    color: #086ea1;
+    outline: dotted thick !important;
+    outline-color: invert !important;
 }
 
-.tag-h2 {
-    display: none;
-}
-
-.testSection .tag-h2 {
-    display: block;
-    font-weight: normal !important;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-nav {
-    width: 250px;
-    overflow-y: scroll;
-    bottom: 0;
-    text-align: left;
-}
-
-nav ul {
-    margin-right: 16px;
-}
-
-section a:link {
-    color: #086ea1;
-    text-decoration: underline;
-}
-
-header p {
-    margin: 0px 20px 0px 20px;
-}
 
 footer{
     text-align: center;
@@ -69,6 +38,7 @@ td, td:first-child {
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
 .skip-link:focus {
     position:static;
     width:auto;
@@ -86,15 +56,14 @@ header {
 #banner {
     background: #BBDEFB;
     border: #7ea1be;
-    margin-right:-500px;
 }
 
-section {
-    width: 750px;
-}
-
-section a {
+main a {
     color: #157bae;
+}
+
+.w3-main {
+    maring-left: 250px;
 }
 
 #banner .button {
@@ -105,60 +74,4 @@ section a {
 #banner .button:hover, #banner .button:focus {
     background-color: #E1F5FE;
     border: 1px #7ea1be;
-}
-
-@media print, screen and (max-width: 1110px) {
-
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
-
-  nav{
-    display: none;
-  }
-
-  header, section, footer {
-    float:none;
-
-    h1 {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
-    }
-  }
-
-  #banner {
-    width: 100%;
-
-    .downloads {
-        margin-right: 60px;
-      }
-
-    .fork {
-    }
-
-    #logo {
-      margin-right: 15px;
-    }
-  }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px auto;
-    margin: 190px auto 20px;
-    max-width: 600px;
-  }
-
-  footer{
-    text-align: center;
-    margin: 20px auto;
-    position: relative;
-    left:auto;
-    bottom:auto;
-    width:auto;
-    }
 }
