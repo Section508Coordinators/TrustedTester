@@ -691,20 +691,26 @@ Accessibility Community of Practice (ACOP)
 <p><strong>Evaluate Results:</strong></p>
 <p>If ALL of the following are <strong>TRUE</strong>, the content <strong>PASSES</strong>:</p>
 <ol style="list-style-type: decimal">
-<li><p>Keyboard focus can be moved away from an interactive component using either</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Standard navigation keys</p></li>
-<li><p>Custom keystrokes (which are documented and available to users in the application).</p></li>
-</ol></li>
+  <li><p>Keyboard focus can be moved away from an interactive component using either</p>
+    <ol style="list-style-type: lower-alpha">
+      <li><p>Standard navigation keys</p></li>
+      <li><p>Custom keystrokes (which are documented and available to users in the application).</p></li>
+    </ol>
+  </li>
 </ol>
 <p>AND</p>
 <ol style="list-style-type: decimal">
-<li><p>Keyboard focus can be moved away from interactive elements in each section of the page (and are not trapped in a “loop”, preventing access to other interactive elements on the page) by using either</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Standard navigation keys</p></li>
-<li><p>Custom keystrokes (which are documented and available to users in the application)</p></li>
-</ol></li>
-</ol></td>
+  <li><p>Keyboard focus can be moved away from interactive elements in each section of the page (and are not trapped in a “loop”, preventing access to other interactive elements on the page) by using either</p>
+  <ol style="list-style-type: lower-alpha">
+    <li><p>Standard navigation keys</p></li>
+    <li><p>Custom keystrokes (which are documented and available to users in the application)</p></li>
+  </ol>
+</ol>
+<p><strong>Note:</strong></p>
+<ul>
+<li><p>In case of a keyboard trap, continue to test interactive elements after the trap by using the mouse to bypass the trap or refreshing the page and using the keyboard to navigate backwards through the page.</p></li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
