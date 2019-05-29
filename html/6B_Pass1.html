@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+
+<head>
+  <meta charset="UTF-8">
+  
+<title>Links/Buttons Passing Example 1 Interactive Sample</title>
+  
+<style>label {
+  display: block;
+  margin: 10px 0px 2px;
+  font-weight: 700;
+}
+.loginbox {
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  width: 300px;
+  : auto;
+}
+button {
+  margin: 10px 0px;
+  display: block;
+}
+.alert {
+  color: red;
+  font-weight: 700;
+}
+</style>
+</head>
+
+
+<body>
+
+  
+<script>javascript:void((function(){andiScript=document.createElement('script');andiScript.setAttribute('src','https://www.ssa.gov/accessibility/andi/andi.js');document.body.appendChild(andiScript)})());</script>
+<script>function badlogin(){
+  $("#passalert").append("The user ID and password combination you entered does not match our records. Please try again.");
+}</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+
+<div class="loginbox">
+  
+<p><strong>Note:</strong> the form elements and button below do NOT provide any functionality. This page is provided for limited demonstration purposes only, as described in the Trusted Tester training course.</p>
+<label id="userid">User ID</label>
+  
+<input aria-labelledby="userid" type="text"></input>
+  
+<label id="pwd">Password</label>
+  
+<input aria-labelledby="pwd"type="password"></input>
+  
+<button onclick="badlogin()">Login</button>
+  
+<p id="passalert" class="alert" role="alert"></p>
+</div>
+  
+  
+
+
+
+</body>
+
+</html>

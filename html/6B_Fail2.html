@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Links Failing Example 2 Interactive Sample</title>
+
+
+  <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+  
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <style>#demoAcc {
+  display:none;
+}
+a:focus, a:hover {
+  outline: dotted thin !Important;
+  outline-color: invert !Important;
+  outline-offset: -1px !Important;
+}</style>
+
+
+</head>
+
+
+<body>
+
+
+  <nav><div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:160px;">
+
+  <ul class="w3-ul">
+
+    <li><a href="#" class="w3-bar-item w3-button">Kitties</a></li>
+
+    <li><div><a class="w3-bar-item w3-button" href="javascript:void(0)" onclick="myAccFunc()">
+
+      Puppies <i id="expand" class="fa fa-caret-right"></i></a></div>
+
+    <div id="demoAcc" class="w3-white w3-card-4">
+
+      <a href="#" class="w3-bar-item w3-button">Floppy Ears</a>
+
+      <a href="#" class="w3-bar-item w3-button">Cuddly</a>
+
+    </div>
+
+    </li>
+
+    <li><a href="#" class="w3-bar-item w3-button">Bunnies</a></li>
+
+    <li><a href="#" class="w3-bar-item w3-button">Piggies</a></li>
+</div>
+</nav>
+
+
+<div class="w3-container" style="margin-left:160px">
+
+<p><strong>Note:</strong> This page is provided for limited demonstration purposes only, as described in the Trusted Tester training course.</p>
+<h2>The Cutest and Cuddliest</h2>
+
+<p>This web site is dedicated to all things cute and cuddly.</p>
+
+<p>Use the links on the left side navigation section of the web page to explore everything you ever wanted to know about the cutest and cuddliest creatures on the planet.</p>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+
+  
+
+<script>function myAccFunc() {
+  $("#demoAcc").slideToggle("slow", function() {
+  });
+  $("#expand").attr('class',
+       $("#expand").attr('class')=='fa fa-caret-right' ? 'fa fa-caret-down' : 'fa fa-caret-right');
+};</script>
+
+  <script>javascript:void((function(){andiScript=document.createElement('script');andiScript.setAttribute('src','https://www.ssa.gov/accessibility/andi/andi.js');document.body.appendChild(andiScript)})());</script>
+
+
+
+
+</body>
+
+
+</html>

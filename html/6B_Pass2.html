@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+
+  <head>
+  <meta charset="UTF-8">
+
+      <title>ShoppingCartNotify</title>
+  
+      <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+      <style>.shoppingbox {  margin: auto;
+  border: 2px solid black;
+  background-color: #546E7A;
+  padding: 10px 0px 0px 0px;
+  width: 200px;
+} 
+
+#cart {
+  color: white;
+  margin: 5px 5px;
+} 
+
+table {
+  color: white;
+  margin: 10px;
+} 
+
+th {
+  font-weight: 700;
+} 
+
+.showhide {
+  display: none;
+}
+</style>
+
+
+  
+</head>
+
+
+<body>
+
+
+
+<p><strong>Note:</strong> This page is provided for limited demonstration purposes only, as described in the Trusted Tester training course.</p>
+
+<div class="shoppingbox">
+
+  <a role="button" aria-expanded="false" href="javascript:void(0)" onclick="expandcollapse()"><i id="cart" class="material-icons" aria-label="Show Shopping Cart Items">
+shopping_cart
+</i></a>
+
+  <div class="showhide">
+
+    <table class="cartlist">
+
+      <tr>
+
+        <th style="text-align:left">Desc</th>
+
+        <th style="text-align:right">Qty</th>
+
+        <th style="text-align:right">Unit Price</th>
+
+      </tr>
+
+      <tr>
+
+        <td style="text-align:left">Carabiner</td>
+
+        <td style="text-align:right">2</td>
+
+        <td style="text-align:right">$15.95</td>
+
+      </tr>
+
+      <tr>
+
+        <td style="text-align:left">Crash Pad</td>
+
+        <td style="text-align:right">1</td>
+
+        <td style="text-align:right">$199.95</td>
+
+      </tr>
+
+      <tr>
+
+        <td colspan="2" style="text-align:right; font-weight:700;">Total</td>
+
+        <td style="text-align:right">$231.85</td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+</div>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+
+<script  src="js/index.js"></script>
+
+
+<script
+>function expandcollapse () {
+  $(".showhide").slideToggle("slow", function() {
+  });
+  $("#cart").parent().attr('aria-expanded',
+       $("#cart").parent().attr('aria-expanded')=='false' ? 'true' : 'false');
+  $("#cart").attr('aria-label',
+       $("#cart").attr('aria-label')=='Show Shopping Cart Items' ? 'Hide Shopping Cart Items' : 'Show Shopping Cart Items');
+};</script>
+
+
+<script>javascript:void((function(){andiScript=document.createElement('script');andiScript.setAttribute('src','https://www.ssa.gov/accessibility/andi/andi.js');document.body.appendChild(andiScript)})());</script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Accessibility site</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
+<body>
+
+<p><strong>Note:</strong> the form element and buttons below do NOT provide any functionality. This page is provided for limited demonstration purposes only, as described in the Trusted Tester training course.</p>
+
+<form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2" aria-label="Search">
+  <button type="button" aria-label="Submit Search"><i class="fa fa-search"></i></button>
+</form>
+
+<h1> What is ICT?</h1>
+<p>Information technology and other equipment, systems, technologies, or processes, for which the principal function is the creation, manipulation, storage, display, receipt, or transmission of electronic data and information, as well as any associated content. Examples of ICT include, but are not limited to: computers and peripheral equipment; information kiosks and transaction machines; telecommunications equipment; customer premises equipment; multifunction office machines; software; applications; Web sites; videos; and, electronic documents. </p>
+<script>javascript:void((function(){andiScript=document.createElement('script');andiScript.setAttribute('src','https://www.ssa.gov/accessibility/andi/andi.js');document.body.appendChild(andiScript)})());</script>
+</body>
+</html> 

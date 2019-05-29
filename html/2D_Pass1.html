@@ -1,0 +1,100 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en">
+<html lang=en>
+<head>
+<title>Aria Live Regions - Atomic</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta content="mshtml 6.00.2900.2668" name=generator>
+<link rel=StyleSheet type="text/css" href="training-dc.css">
+
+
+<script type="text/javascript"> 
+window.onload = runExample;
+var minimumTime = 10000;
+var index=0;
+var lrID = "LiveRegion2";
+var messagesArray = new Array("3",
+"4",
+"5",
+"6",
+"7",
+"8",
+"9",
+"10",
+"11",
+"12");
+ 
+function updateLiveRegion(liveRegionID, textString){
+  textNode = document.createTextNode(textString);
+        targetNode = document.getElementById(liveRegionID);
+        while (targetNode.firstChild) {
+           targetNode.removeChild(targetNode.firstChild);
+           }
+  targetNode.appendChild(textNode);
+        }
+ 
+function runExample(){
+   updateLiveRegion(lrID, messagesArray[index++]);
+   if (index > 9){
+      index=0;
+      }
+   window.setTimeout(runExample, minimumTime);
+   }
+ 
+function setMinimumTime(){
+   minimumTimeStr = document.getElementById("throttle").options[document.getElementById("throttle").selectedIndex].text;
+   minimumTime = minimumTimeStr * 5000;
+   }
+</script>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+//-->
+</script>
+
+<noscript>This page uses JavaScript. Your browser either doesn't support JavaScript or you have it turned off. To see this page as it is meant to appear please use a JavaScript enabled browser.</noscript>
+
+</head>
+<body>
+<script>javascript:void((function(){andiScript=document.createElement('script');andiScript.setAttribute('src','https://www.ssa.gov/accessibility/andi/andi.js');document.body.appendChild(andiScript)})());</script>			<!-- dc html head info -->
+
+
+<h1>Hockey Scores</h1>
+<p> Scores will auto-update every 10 seconds</p>
+
+<hr>
+
+<p>
+<span id="LiveRegion1" aria-live="polite" aria-atomic="true">
+<span id="teams">Washington Capitals: 
+<span id="LiveRegion2"></span>
+<br />
+Nashville Predators:&nbsp;&nbsp; 2
+</span>
+
+
+</span>
+</p>
+
+
+
+</body>
+</html>

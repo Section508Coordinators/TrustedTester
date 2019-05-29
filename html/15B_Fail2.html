@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<title>CSS Position Failing Example 2 - Interactive Sample</title>
+<style>
+.menu1 { 
+     position: absolute; 
+     top: .5em; 
+     left: .5em;     
+     margin: 0px; 
+     font-family: sans-serif;     
+     font-size: 120%; 
+     color: Black; 
+     background-color: white 
+}        
+.menu2 { 
+     position: absolute; 
+     top: 17.5em; 
+     left: .5em;     
+     margin: 0px; 
+     font-family: sans-serif;     
+     font-size: 120%; 
+     color: Black; 
+     background-color: white      
+}      
+.item1 { 
+     position: absolute; 
+     top: 2em; 
+     left: .5em; 
+     margin: 0px 
+}      
+.item2 { 
+     position: absolute; 
+     top: 22.5em; 
+     left: .5em; 
+     margin: 0px 
+}   
+
+</style>
+</head>
+
+<body>
+<form action="#" method="post">
+<span class="menu2"> Credit Card Information</span> </br>
+ <span class="menu1">Shipping Information</span>
+
+<form> <br>
+<span class="item2">First name:</span>
+<span class="item1">First name:</span><br>
+<input type="text" name="firstname" tabindex="4">
+<br>Last name:
+<br>
+<input type="text" name="lastname"  tabindex="8">
+<br>Address:
+<br>
+<input type="text" name="address" tabindex="3">
+<br>
+City:
+<br>
+<input type="text" name="city" tabindex="1">
+<br>
+State:
+<br>
+<input type="text" name="state" tabindex="6">
+<br>
+Area code:<br>
+<input type="text" name="area code" tabindex="3">
+<br>
+Telephone Number:<br>
+<input type="text" name="telephone" tabindex="7"> <br>
+</form>
+<br>
+<form> 
+<br>
+<br>
+<br>
+  <input type="text" name="firstname" tabindex="4">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname"  tabindex="8">
+<br>
+Credit Card Type:<br>
+  <input type="text" name="cctype" tabindex="2">
+<br>
+  Credit Card number:<br>
+  <input type="text" name="card number" tabindex="5">
+<br>
+ Security Code:<br>
+  <input type="text" name="code" tabindex="9">
+</form>
+
+<script>javascript:void((function(){andiScript=document.createElement('script');andiScript.setAttribute('src','https://www.ssa.gov/accessibility/andi/andi.js');document.body.appendChild(andiScript)})());</script>
+</body>
+</html>

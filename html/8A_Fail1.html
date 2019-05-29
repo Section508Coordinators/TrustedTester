@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ANDI508-testPage" lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Adjustable Timing Failing Example 1</title>
+ <meta http-equiv="refresh" content="10" /> 
+<style type="text/css">
+div.control label {
+margin: 0;
+padding: 0;
+padding-right: .25em;
+text-align: right;
+clear: both;
+float: left;
+}
+div.control {
+margin: .5em;
+}
+input.error {
+   border: red thin solid;}
+input[type=submit] {
+clear: both;
+padding: 0;
+margin: 0;
+margin-top: 0;
+margin-left: 13em;
+}
+span.errtext {
+	margin-bottom: 1em;
+	padding: .25em 1.4em .25em .25em;
+	border: red thin solid;
+	background-color: #EEEEFF;
+	background-image:url('images/iconError.gif');
+	background-repeat:no-repeat;
+	background-position:right;	
+}
+</style>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script> 
+<script type="text/JavaScript" src="valcheck.js"></script>
+</head>
+<body>
+<p> You have 10 seconds to log in before the time limit is reached and the page refreshes.</p>
+<form action="#" method="post" id="login3" onsubmit="return errorAlert2()" form autocomplete="off">
+
+<div class="control">
+<p><label for="pin4" >Personal Id. Number (PIN) - 4 digits: [*]</label> 
+<input size="4" name="pin4" id="pin4"  data-andi508-index="2" type="text"></p>
+</div>
+<div class="control">
+<p><label for="email" c>Email address: [*]</label> 
+<input name="email" id="email" data-andi508-index="3" type="text"> </p> 
+</div>
+<div class="control">
+<p><label for="lname">Last name:  [*]</label>
+<input name="lname" id="lname" size="12" data-andi508-index="4" type="text"> </p> 
+</div>
+<div class="control">
+<p><label for="startDt" c>Desired policy start date (MM / DD / YYYY)</label>
+<input name="startDt" id="startDt" size="12"  data-andi508-index="5" type="text"> </p> 
+</div>
+<p><input name="spanval" id="spanval" value="<span class=&quot;errtext&quot; id=&quot;err_2&quot;>Error: Input data missing</span>" type="hidden">
+
+<input value="Login" id="next_btn" name="next_btn"data-andi508-index="6" type="submit"></p>
+</form>
+
+</body>
+</html>
