@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<title>CSS Content Passing Example 1 - Interactive Sample</title>
+<style>
+p.jim:before {	content: "Peter: " }
+p.mary:before { content: "Jane: " }
+
+q:before { content: open-quote }
+q:after  { content: close-quote }
+</style>
+
+</head>
+
+<body>
+<div style="margin:20px">
+
+<p class="jim">
+<q>What is your address? (asks Peter)</q>
+</p>
+<p class="mary">
+<q>0001 Main Street. (replies Jane)</q>
+</p>
+
+
+</div>
+<script>javascript:void((function(){andiScript=document.createElement('script');andiScript.setAttribute('src','https://www.ssa.gov/accessibility/andi/andi.js');document.body.appendChild(andiScript)})());</script>
+</body>
+</html>
