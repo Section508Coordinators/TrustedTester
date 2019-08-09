@@ -31,3 +31,7 @@ Section 508 Conformance Tests
 18. [Resize Text](resize.md)
 19. [Multiple Ways](multiple.md)
 20. [Parsing](parsing.md)
+
+
+-------------------------------------------------
+[Home/Table of Contents](index.md)    |    [Next -- 1. Conforming Alternate Version and Non-Interference](alternate.md)
