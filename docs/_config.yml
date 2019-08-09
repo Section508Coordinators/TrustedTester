@@ -1,3 +1,5 @@
 title: Trusted Tester
 description: A standardized approach for manual inspection of Web content for conformance with the Revised Section 508 Standards.
 show_downloads: false
+
+theme: jekyll-theme-slate
