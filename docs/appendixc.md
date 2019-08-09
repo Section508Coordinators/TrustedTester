@@ -144,3 +144,6 @@ One-Page Quick Reference – Test Names Only
 | 18.A    | 1.4.4-resize-text                         |
 | 19.A    | 2.4.5-multiple-ways                       |
 | 20.A    | 4.1.1-parsing                             |
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous -- Appendix B: Document Change Log](appendixb.md)
