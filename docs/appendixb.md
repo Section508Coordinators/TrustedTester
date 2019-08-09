@@ -21,3 +21,6 @@ Version 5.0 is a wholesale change to the test process and supporting content. Th
 -   Addition of unique and descriptive test names to help identify the Test Condition without having to look up the Test Condition by Test ID.
 
 Finally, the test process has adopted a new testing tool: the Accessible Name and Description Inspector (ANDI). ANDI replaces all of the tools used in previous versions of the test process. ANDI also adds a significant number of new functions and features to facilitate the Trusted Tester process.
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous -- Appendix A: Test Process Mapping](appendixa.md) | [Next -- Appendix C: Test Process Quick Reference](appendixc.md)
