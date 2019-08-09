@@ -61,3 +61,6 @@ The Rationale for Each Test
 ---------------------------
 
 Previous versions of the Trusted Tester process document provided a rationale for each test based on interpretation of the Section 508 standards. With the Section 508 standards refresh and adoption of the WCAG 2.0 Success Criteria, this version of the test process relies principally on the rationale provided in [*Understanding WCAG 2.0: A guide to understanding and implementing Web Content Accessibility Guidelines 2.0*](https://www.w3.org/TR/UNDERSTANDING-WCAG20/). The test process also relies on accompanying Trusted Tester training to provide additional description and guidance for understanding the logic that drives each test. Each step included in this test process document includes only the information necessary to execute the test. However, the Applicable Standards section of each test references the applicable WCAG 2.0 or Section 508 standard along with a link to the applicable article from the *Understanding WCAG 2.0* document.
+
+-------------------------------------------------
+[Home/Table of Contents](index.md)    |    [Next -- Test Environment](TestEnvironment.md)
