@@ -47,3 +47,6 @@ If ALL of the following are **TRUE**, then the content **PASSES**:
 | Section 508/WCAG Success Criteria                                                                                                                                                                                                                                   | Baseline Requirements                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [*WCAG SC 2.4.5 Multiple Ways*](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html): More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process. | [23. Multiple Ways](https://section508coordinators.github.io/ICTTestingBaseline/23MultipleWays.html) |
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous -- 18. Resize Text](resize.md) | [Next -- 20. Parsing](parsing.md)
