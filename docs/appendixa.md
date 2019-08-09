@@ -121,3 +121,6 @@ Section 508/WCAG Requirement to Trusted Tester Test and Baseline Test
 | 36 CFR 1194 503.4.2 Audio Description Controls                     | 17.F / 503.4.2-description-control               | 17. Synchronized Media        |
 | WCAG Conformance Requirement 1. Conformance Level                  | 1.A / Alt-version-conformant<br>1.B / Alt-version-equivalent<br>1.C / Alt-version-access<br>1.D / Alt-version-nc-access                       | 20. Alternate Versions        |
 | WCAG Conformance Requirement 5. Non-Interference                   | 1.E / non-interference<br>2.A/ 1.4.2-audio-control<br>2.B/ 2.2.2-blinking-moving-scrolling<br>2.C/ 2.2.2-auto-updating<br>3.A/ 2.3.1-flashing<br>4.C/ 2.1.2-no-keyboard-trap                       | 25. Non-Interference          |
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous -- 20. Parsing](parsing.md) | [Next -- Appendix B: Document Change Log](appendixb.md)
