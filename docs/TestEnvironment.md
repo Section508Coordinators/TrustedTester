@@ -53,3 +53,7 @@ The following browsers were validated:
 -   Safari
 
 Use of newer versions of these browsers is acceptable unless otherwise specified on the DHS Section 508 Compliance Testing Tools website at <https://dhs.gov/508-tools>. As browsers are frequently updated, it may be possible that an update creates critical issues for test procedures or results. Known issues and modifications will be published on the website as quickly as possible.
+
+
+-------------------------------------------------
+[Home/Table of Contents](index.md)    |    [Next -- Conformance Reporting Requirements](Reporting.md)
