@@ -20,3 +20,7 @@ Each ACR must provide:
 -   Clear documentation of the test environment(s).
 
 In general, the possible outcomes for Test Conditions and web requirements are **PASS, FAIL, DOES NOT APPLY,** or **NOT TESTED.** Any results of **FAIL** should also include clear information identifying the location of the failure and, when feasible, clear information illustrating the content or information that resulted in the **FAIL** result. When multiple instances of the same failure are found, they may be flagged as global or included individually within test results.
+
+
+-------------------------------------------------
+[Home/Table of Contents](index.md)    |    [Next -- Section 508 Conformance Tests](Tests.md)
