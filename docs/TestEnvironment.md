@@ -1,7 +1,7 @@
 Test Environment
 ================
 
-At the initial release of this document, only the operating systems and browsers specified below were validated with the test process and tools to ensure that results were consistent and accurate. The list of supported operating systems and browsers is expected to grow. Please refer to the DHS Section 508 Compliance Testing Tools website at [https://www.dhs.gov/508-tools](https://edit.dhs.gov/508-tools) for the most up to date test environment information and the Trusted Tester Test Tool Installation Guide.
+At the initial release of this document, only the operating systems and browsers specified below were validated with the test process and tools to ensure that results were consistent and accurate. The list of supported operating systems and browsers is expected to grow. Please refer to the DHS Section 508 Compliance Testing Tools website at [https://www.dhs.gov/508-tools](https://www.dhs.gov/508-tools) for the most up to date test environment information and the Trusted Tester Test Tool Installation Guide.
 
 Testing Tools
 -------------
@@ -14,7 +14,7 @@ ANDI (Accessible Name & Description Inspector) is a free open-source bookmarklet
 
 ANDI issues may be reported to the ANDI GitHub page: <https://github.com/SSAgov/ANDI/issues>.
 
-### Color Contrast Analyzer 
+### Color Contrast Analyzer
 
 The Color Contrast Analyzer (CCA) is a free open-source tool that displays the contrast ratio for two selected colors. Developed by Steve Faulkner and the Paciello Group, CCA is available at the following links:
 
