@@ -1,6 +1,6 @@
-NOTE: All _**already certified**_ Trusted Testers and Baseline work/discussions should use _**Trusted Tester 5.1, the updated version**_ of this process at https://github.com/Section508Coordinators/TrustedTester5.1.
+NOTE: All _**already certified**_ Trusted Testers and Baseline work/discussions should use _**Trusted Tester 5.1 or above, the updated version**_ of this process at https://github.com/Section508Coordinators/TrustedTester5.1.
 
-_**This version**_ of Trusted Tester should _**only**_ be used for the _**current certification training and exam**_ until it has been updated to align with 5.1.
+_**This version**_ of Trusted Tester should _**only**_ be used for the _**current certification training and exam**_ until it has been updated to align with 5.1 or above.
 
 
 # Trusted Tester
