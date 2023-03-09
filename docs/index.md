@@ -7,6 +7,9 @@ Accessibility Community of Practice (ACOP)
 Trusted Tester: Section 508 Conformance Test Process For Web
 ============================================================
 
+NOTE: All **already certified** Trusted Testers and Baseline work/discussions should use **Trusted Tester 5.1 or above, the updated version of this process at https://github.com/Section508Coordinators/TrustedTester5.1.**
+
+This 5.0 version of Trusted Tester should **only** be used for the current certification training and exam until it has been updated to align with 5.1 or above.
 For more information on the Trusted Tester process, training, and certification programs, visit: <http://www.dhs.gov/compliance-test-processes>
 
 For questions or to provide feedback, contact the DHS Accessibility Helpdesk at: 
